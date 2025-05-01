@@ -26,7 +26,8 @@ test: all
 
 # clean up exec & output txt files
 clean:
-	rm -f $(EXEC) *.txt
+	rm -f $(EXEC)
+	find . -maxdepth 1 -name "*.txt" ! -name "ReadMe.txt" -exec rm -f {} +
 
 # clean & recompile
 rebuild: clean all

@@ -44,7 +44,7 @@ void writeEval(double rho_start, double rho_end, double rho_step, double mu) {
     }
 
     // Print table header to screen
-    printf("\n   ρ \t\t N \t\t Q \t\t RT \n");
+    printf("\n  p \t\t N \t\t Q \t\t RT \n");
     printf("--------\t--------\t--------\t--------\n");
 
     for (rho = rho_start; rho < rho_end; rho += rho_step) {
