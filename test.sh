@@ -9,7 +9,7 @@ if [ ! -f "$EXEC" ]; then
 fi
 
 echo "=== Running simulation with step = 0.1 ==="
-echo "Inputs: Rho start = 0.0, end = 1.0, step = 0.1, mu = 20"
+echo "Inputs: Rho start = 0.0, end = 0.9, step = 0.1, mu = 20"
 
 $EXEC <<EOF
 0.0

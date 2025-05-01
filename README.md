@@ -5,7 +5,7 @@
 
 # List of files
 - sim.c         : source code for sim
-- sim.exe       : compile code
+- sim.exe       : compiled code
 - Makefile      : config to help compile, test, clean (working dir) and run codes
 - test.sh       : simple script to test codes and report errors
 - *.txt files   : program results

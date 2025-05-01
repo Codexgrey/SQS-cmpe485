@@ -18,7 +18,8 @@ $(EXEC): $(SRC)
 	$(CC) $(CFLAGS) -o $(EXEC) $(SRC)
 
 # run program
-run: ./$(EXEC)
+run: $(EXEC)
+	./$(EXEC)
 
 # test code
 test: all
